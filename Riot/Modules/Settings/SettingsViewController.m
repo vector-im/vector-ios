@@ -3709,7 +3709,7 @@ SettingsIdentityServerCoordinatorBridgePresenterDelegate>
                                         handler:actionBlock];
 
 
-    UIAlertController *themePicker = [UIAlertController alertControllerWithTitle:NSLocalizedStringFromTable(@"settings_ui_theme_picker_title", @"Vector", nil)
+    UIAlertController *themePicker = [AlertController alertControllerWithTitle:NSLocalizedStringFromTable(@"settings_ui_theme_picker_title", @"Vector", nil)
                                                                          message:themePickerMessage
                                                                   preferredStyle:UIAlertControllerStyleActionSheet];
 

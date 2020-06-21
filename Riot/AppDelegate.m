@@ -2788,7 +2788,7 @@ NSString *const AppDelegateUniversalLinkDidChangeNotification = @"AppDelegateUni
     {
         [accountPicker dismissViewControllerAnimated:NO completion:nil];
         
-        accountPicker = [UIAlertController alertControllerWithTitle:[NSBundle mxk_localizedStringForKey:@"select_account"] message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+        accountPicker = [AlertController alertControllerWithTitle:[NSBundle mxk_localizedStringForKey:@"select_account"] message:nil preferredStyle:UIAlertControllerStyleActionSheet];
         
         __weak typeof(self) weakSelf = self;
         for(MXKAccount *account in mxAccounts)
