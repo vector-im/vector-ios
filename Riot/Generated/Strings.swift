@@ -2214,10 +2214,6 @@ internal enum VectorL10n {
   internal static var roomDetailsLowPriorityTag: String { 
     return VectorL10n.tr("Vector", "room_details_low_priority_tag") 
   }
-  /// Mute notifications
-  internal static var roomDetailsMuteNotifs: String { 
-    return VectorL10n.tr("Vector", "room_details_mute_notifs") 
-  }
   /// Add new address
   internal static var roomDetailsNewAddress: String { 
     return VectorL10n.tr("Vector", "room_details_new_address") 
@@ -2233,6 +2229,10 @@ internal enum VectorL10n {
   /// This room has no local addresses
   internal static var roomDetailsNoLocalAddresses: String { 
     return VectorL10n.tr("Vector", "room_details_no_local_addresses") 
+  }
+  /// Notifications
+  internal static var roomDetailsNotificationsRowTitle: String { 
+    return VectorL10n.tr("Vector", "room_details_notifications_row_title") 
   }
   /// Members
   internal static var roomDetailsPeople: String { 
@@ -2445,6 +2445,10 @@ internal enum VectorL10n {
   /// %d new messages
   internal static func roomNewMessagesNotification(_ p1: Int) -> String {
     return VectorL10n.tr("Vector", "room_new_messages_notification", p1)
+  }
+  /// Room Notifications
+  internal static var roomNotificationSettingsHomeTitle: String { 
+    return VectorL10n.tr("Vector", "room_notification_settings_home_title") 
   }
   /// Connectivity to the server has been lost.
   internal static var roomOfflineNotification: String { 

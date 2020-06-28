@@ -638,7 +638,7 @@
 "identity_server_settings_alert_error_invalid_identity_server" = "%@ is not a valid identity server.";
 
 
-// Room Details
+// MARK: Room Details
 "room_details_title" = "Room Details";
 "room_details_people" = "Members";
 "room_details_files" = "Files";
@@ -648,7 +648,7 @@
 "room_details_topic" = "Topic";
 "room_details_favourite_tag" = "Favourite";
 "room_details_low_priority_tag" = "Low priority";
-"room_details_mute_notifs" = "Mute notifications";
+"room_details_notifications_row_title" = "Notifications";
 "room_details_direct_chat" = "Direct Chat";
 "room_details_access_section"="Who can access this room?";
 "room_details_access_section_invited_only"="Only people who have been invited";
@@ -701,6 +701,9 @@
 "room_details_copy_room_id" = "Copy Room ID";
 "room_details_copy_room_address" = "Copy Room Address";
 "room_details_copy_room_url" = "Copy Room URL";
+
+// Notifications
+"room_notification_settings_home_title" = "Room Notifications";
 
 // Group Details
 "group_details_title" = "Community Details";
