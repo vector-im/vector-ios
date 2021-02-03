@@ -16,6 +16,7 @@
 
 import Foundation
 import MatrixKit
+import MatrixSDK
 
 /// AppConfiguration is CommonConfiguration plus configurations dedicated to the app
 class AppConfiguration: CommonConfiguration {
@@ -37,6 +38,8 @@ class AppConfiguration: CommonConfiguration {
         
         // Hide undecryptable messages that were sent while the user was not in the room
         MXKAppSettings.standard()?.hidePreJoinedUndecryptableEvents = true
+        
+        MXKAppSettings.standard()?.outboundGroupSessionKeyPreSharingStrategy = RemoteSettings.shared[.outboundGroupSessionKeyPreSharingStrategy] ?? BuildSettings.outboundGroupSessionKeyPreSharingStrategyKey;
         
         // Enable long press on event in bubble cells
         MXKRoomBubbleTableViewCell.disableLongPressGesture(onEvent: false)

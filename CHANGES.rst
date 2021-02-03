@@ -8,6 +8,7 @@ Changes to be released in next version
  * Social login: Handle new identity provider brand field in order to customize buttons (#3980).
  * Widgets: Support $matrix_room_id and $matrix_widget_id parameters (#3987).
  * Avoid megolm share requests if the device is not verified (#3969)
+ * Added capability to setup the application from server (#3934)
 
 🐛 Bugfix
  * Push: Fix PushKit crashes due to undecryptable call invites (#3986).
@@ -91,6 +92,7 @@ Changes in 1.1.4 (2021-01-15)
  * Bug report: Add "Continue in background" button  (#3816).
  * Show user id in the room invite preview screen (#3839)
  * AuthVC: SSO authentication now use redirect URL instead of fallback page (#3846).
+ * Allow key sharing when user enters room (#3934).
 
 🐛 Bugfix
  * Crash report cannot be submitted (on small phones) (#3819)
