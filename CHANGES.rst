@@ -352,6 +352,7 @@ Changes in 1.3.0 (2021-04-09)
  * Black theme uses dark background for composer (#4192)
  * Vertical layout of typing notifs can go wonky (#4159)
  * Crash in [RoomViewController refreshTypingNotification] (#4161)
+ * Memory leak in [RecentsDataSource dataSource:didStateChange:]
 
 ⚠️ API Changes
  * 
