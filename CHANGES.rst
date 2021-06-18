@@ -129,7 +129,7 @@ Changes in 1.3.8 (2021-05-17)
  * 
 
 🙌 Improvements
- * 
+ * Show target user avatars for collapsed membership changes (#4102).
 
 🐛 Bugfix
  * RecentsDataSource: Do not display secure backup banner when keys upload is in process.
