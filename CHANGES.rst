@@ -5,10 +5,15 @@ Changes to be released in next version
  * 
 
 🙌 Improvements
+ * Room Notification Settings: Ability to change between "All Messages", "Mentions and Keywords" and "None". Not yet exposed in Element UI. (#4458).
  * Notifications: Show decrypted content is enabled by default (#4519).
 
 🐛 Bugfix
- * 
+ * VoIP: Do not present ended calls.
+ * More fixes to Main.storyboard layout on iPhone 12 Pro Max (#4527)
+ * Fix crash on Apple Silicon Macs.
+ * Media Picker: Generate video thumbnails with the correct orientation (#4515).
+ * Directory List (pop-up one): Fix duplicate rooms being shown (#4537).
 
 ⚠️ API Changes
  * 
