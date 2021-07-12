@@ -5,7 +5,8 @@ Changes to be released in next version
  * 
 
 🙌 Improvements
- * Room Norification Settings: Ability to change between "All Messages", "Mentions and Keywords" and "None". Not yet exposed in Element UI. (#4458).
+ * Room Notification Settings: Ability to change between "All Messages", "Mentions and Keywords" and "None". Not yet exposed in Element UI. (#4458).
+ * Notifications: Show decrypted content is enabled by default (#4519).
 
 🐛 Bugfix
  * VoIP: Do not present ended calls.
